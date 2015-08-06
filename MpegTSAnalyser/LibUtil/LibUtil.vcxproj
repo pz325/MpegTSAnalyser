@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D1372F80-A2FE-4862-9EB1-2D37C1F203D1}</ProjectGuid>
+    <ProjectGuid>{9E4570E4-3E94-45F5-936C-FF5C660C1FFC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LibMpegTS</RootNamespace>
+    <RootNamespace>LibUtil</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\ExternalLibs\MainConcept\x86\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\ExternalLibs\boost\boost_1_57_0\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
