@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MpegTSAnalyser", "MpegTSAnalyser\MpegTSAnalyser.vcxproj", "{ACE3894B-A809-4C31-8DAA-7F6E7BAC40BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1372F80-A2FE-4862-9EB1-2D37C1F203D1} = {D1372F80-A2FE-4862-9EB1-2D37C1F203D1}
+		{9E4570E4-3E94-45F5-936C-FF5C660C1FFC} = {9E4570E4-3E94-45F5-936C-FF5C660C1FFC}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibMpegTS", "LibMpegTS\LibMpegTS.vcxproj", "{D1372F80-A2FE-4862-9EB1-2D37C1F203D1}"
 EndProject
