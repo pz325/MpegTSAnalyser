@@ -4,7 +4,7 @@
 using namespace LibMpegTS;
 
 TsChunk::TsChunk()
-	: data_(nullptr),
+	: pData_(nullptr),
 	size_(0)
 {}
 
@@ -16,14 +16,14 @@ TsChunk::~TsChunk()
 void TsChunk::setData(const uint8_t* data, const uint32_t size)
 {
 	clear();
-	data_ = new uint8_t[size];
-	memcpy(data_, data, size);
+	pData_ = new uint8_t[size];
+	memcpy(pData_, data, size);
 	size_ = size;
 }
 
 void TsChunk::clear()
 {
-	delete[] data_;
-	data_ = nullptr;
+	delete[] pData_;
+	pData_ = nullptr;
 	size_ = 0;
 }

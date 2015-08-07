@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <memory>
 
 namespace LibMpegTS
 {
@@ -11,7 +12,7 @@ namespace LibMpegTS
 		{
 			FILE,
 			HTTP,
-			STRING
+			STRING // this type can be used for testing: reading std::string
 		};
 
 		Source();
@@ -24,10 +25,8 @@ namespace LibMpegTS
 		void load(const std::string& uri);
 
 	private:
-		uint8_t* pData_;
+		std::unique_ptr<uint8_t[]> pData_;
 		uint32_t size_;
 		uint32_t readIndex_;
-
-		void clear();
 	};
 } // namespace LibUtil
