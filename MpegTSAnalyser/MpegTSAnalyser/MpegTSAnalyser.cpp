@@ -7,11 +7,13 @@
 
 int main()
 {
-	LibUtil::Source source;
-	source.load<LibUtil::Source::FILE>("resource/00.ts");
-	uint8_t* data = source.data();
-	const uint32_t size = source.size();
-	std::cout << data[0] << " size " << size << std::endl;
+	LibMpegTS::Source source;
+	source.load<LibMpegTS::Source::FILE>("resource/00.ts");
+
+	const uint32_t dataSize = 50;
+	uint8_t* pData = new uint8_t[dataSize];
+	const uint32_t sizeWritten = source.writeTo(pData, dataSize);
+	std::cout << pData[0] << " size " << sizeWritten << std::endl;
 
 	return 0;
 }

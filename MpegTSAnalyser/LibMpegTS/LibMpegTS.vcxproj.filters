@@ -9,4 +9,12 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TsChunk.hpp" />
+    <ClInclude Include="Source.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TsChunk.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
 </Project>

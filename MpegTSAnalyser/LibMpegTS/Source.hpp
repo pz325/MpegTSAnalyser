@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace LibUtil
+namespace LibMpegTS
 {
 	class Source
 	{
@@ -10,20 +10,24 @@ namespace LibUtil
 		enum SourceType
 		{
 			FILE,
-			HTTP
+			HTTP,
+			STRING
 		};
 
 		Source();
 		~Source();
-		
+		uint32_t writeTo(uint8_t* pData, const uint32_t sizeToRead);
+		uint32_t size() const;
+		void reset();
+
 		template<SourceType type>
 		void load(const std::string& uri);
 
-		uint8_t* data() const;
-		uint32_t size() const;
-
 	private:
-		uint8_t* data_;
+		uint8_t* pData_;
 		uint32_t size_;
+		uint32_t readIndex_;
+
+		void clear();
 	};
 } // namespace LibUtil
