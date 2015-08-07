@@ -8,22 +8,11 @@ TsChunk::TsChunk()
 	size_(0)
 {}
 
-TsChunk::~TsChunk()
-{
-	clear();
-}
+TsChunk::~TsChunk() {}
 
 void TsChunk::setData(const uint8_t* data, const uint32_t size)
 {
-	clear();
-	pData_ = new uint8_t[size];
-	memcpy(pData_, data, size);
+	pData_ = std::unique_ptr<uint8_t[]>(new uint8_t[size]);
+	memcpy(pData_.get(), data, size);
 	size_ = size;
-}
-
-void TsChunk::clear()
-{
-	delete[] pData_;
-	pData_ = nullptr;
-	size_ = 0;
 }

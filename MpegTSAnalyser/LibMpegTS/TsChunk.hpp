@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdint>
+#include <memory>
 
 namespace LibMpegTS
 {
@@ -14,9 +15,7 @@ namespace LibMpegTS
 		void setData(const uint8_t* pData, const uint32_t size = SIZE);
 
 	private:
-		uint8_t* pData_;
+		std::unique_ptr<uint8_t[]> pData_;
 		uint32_t size_;
-
-		void clear();
 	};
 } // namespace LibMpegTS
