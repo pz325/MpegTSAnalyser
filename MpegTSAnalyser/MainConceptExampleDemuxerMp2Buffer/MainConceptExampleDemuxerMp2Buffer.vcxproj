@@ -71,8 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\MainConcept\x86\include;C:\Users\zou\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream;C:\Users\zou\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\MainConcept\x86\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\x86\include;$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream;$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

@@ -71,8 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\include;$(SolutionDir)LibMpegTS;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\Windows\x86\VS2015\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\include;$(SolutionDir)LibMpegTS;$(IncludePath)</IncludePath>
+    <LibraryPath>$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\Windows\x86\VS2015\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
