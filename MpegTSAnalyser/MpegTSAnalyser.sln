@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLibMpegTS", "TestLibMpe
 		{D1372F80-A2FE-4862-9EB1-2D37C1F203D1} = {D1372F80-A2FE-4862-9EB1-2D37C1F203D1}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainConceptExampleDemuxerMp2Buffer", "MainConceptExampleDemuxerMp2Buffer\MainConceptExampleDemuxerMp2Buffer.vcxproj", "{4089CA7A-C618-42B6-9B5A-3BBA1B959945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -47,6 +49,14 @@ Global
 		{5280741D-C5CD-44F1-88E9-82B37BFDE425}.Release|x64.Build.0 = Release|x64
 		{5280741D-C5CD-44F1-88E9-82B37BFDE425}.Release|x86.ActiveCfg = Release|Win32
 		{5280741D-C5CD-44F1-88E9-82B37BFDE425}.Release|x86.Build.0 = Release|Win32
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Debug|x64.ActiveCfg = Debug|x64
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Debug|x64.Build.0 = Debug|x64
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Debug|x86.ActiveCfg = Debug|Win32
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Debug|x86.Build.0 = Debug|Win32
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Release|x64.ActiveCfg = Release|x64
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Release|x64.Build.0 = Release|x64
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Release|x86.ActiveCfg = Release|Win32
+		{4089CA7A-C618-42B6-9B5A-3BBA1B959945}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
