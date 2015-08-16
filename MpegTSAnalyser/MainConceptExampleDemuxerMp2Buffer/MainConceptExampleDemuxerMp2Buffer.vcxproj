@@ -98,7 +98,7 @@
       <AdditionalDependencies>demux_mp2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /I /Y C:\Users\zou\Dropbox\project\3rdPartyLibraries\MainConcept\x86\bin "$(outdir)"</Command>
+      <Command>xcopy /I /Y $(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\x86\bin "$(outdir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -152,13 +152,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_fifo.c" />
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_file.c" />
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_wave_write.c" />
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\sr_fifo.c" />
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_args.cpp" />
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_misc.cpp" />
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\demuxer\sample_demux_mp2_buffer\sample_demux_mp2_buffer.cpp" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_fifo.c" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_file.c" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_wave_write.c" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\sr_fifo.c" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_args.cpp" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_misc.cpp" />
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\demuxer\sample_demux_mp2_buffer\sample_demux_mp2_buffer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

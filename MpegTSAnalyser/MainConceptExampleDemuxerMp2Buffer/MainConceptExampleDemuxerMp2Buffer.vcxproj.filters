@@ -15,25 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\demuxer\sample_demux_mp2_buffer\sample_demux_mp2_buffer.cpp">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_fifo.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\sr_fifo.c">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_file.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_fifo.c">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_wave_write.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_file.c">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\sr_fifo.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\bufstream\buf_wave_write.c">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_args.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_args.cpp">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_misc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Dropbox\project\3rdPartyLibraries\MainConcept\samples\common\sample_common_misc.cpp">
+    <ClCompile Include="$(USERPROFILE)\Dropbox\project\3rdPartyLibraries\MainConcept\samples\demuxer\sample_demux_mp2_buffer\sample_demux_mp2_buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
