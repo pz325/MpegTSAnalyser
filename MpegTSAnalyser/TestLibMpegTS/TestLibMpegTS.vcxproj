@@ -71,15 +71,15 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\ExternalLibs\GTest\Prebuilt\include;$(SolutionDir)LibMpegTS;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\ExternalLibs\GTest\Prebuilt\Windows\x86\VS2015\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\include;$(SolutionDir)LibMpegTS;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\Windows\x86\VS2015\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\ExternalLibs\GTest\Prebuilt\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\zou\Dropbox\project\3rdPartyLibraries\GTest\Prebuilt\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\ExternalLibs\GTest\Prebuilt\Windows\x86\VS2015\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
